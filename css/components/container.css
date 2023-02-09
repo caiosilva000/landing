@@ -1,0 +1,22 @@
+.container {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.container h3 {
+  color: black;
+  text-align: center;
+}
+
+@media(max-width: 900px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 500px) {
+  .container {
+    width: 300px;
+  }
+}
